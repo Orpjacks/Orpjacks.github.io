@@ -1,0 +1,132 @@
+.container {
+    background-color: white;
+    font-size: 16 px;
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: right;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    
+}
+
+.headerClass {
+    background-color: #999;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+button {
+    background-color: #bbb;
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+nav button {
+    background-color: #888;
+}
+
+nav button:hover {
+    background-color: rgb(211, 216, 216);
+
+}
+
+.sectionImage {
+    border-radius: 20%;
+    width: auto;
+    height: 300px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section1logo {
+
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+}
+
+.section2logo {
+
+    padding: 5px;
+    width: 30px;
+    justify-content: space-between;
+}
+
+.section3logo {
+
+    padding: 5px;
+    width: 30px;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+main {
+    padding: 20px;
+    background-color: #777;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 90%;
+    grid-gap: 10px;
+    text-align: center;
+    height: 100%;
+    width: auto;
+}
+
+body {
+    width: 1200px;
+    height: auto;
+    padding: 20px;
+
+}
+
+p {
+    text-align: left;
+}
+
+.projects {
+    margin: 0;
+    padding: .3rem;
+    /* //background-color: #eee; */
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.project>h3,
+.project {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.project {
+    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+    vertical-align: middle;
+}
+
+.project>h4,
+.project>p {
+    margin: .2rem;
+    font-size: 1rem;
+
+}
